@@ -19,6 +19,7 @@
   "description": "Commercial Restoration Lead Generation with AI-powered damage assessment",
   "dependencies": {
     "@ag-ui/core": "^0.0.39",
+    "@anthropic-ai/sdk": "^0.65.0",
     "@copilotkit/react-core": "^1.10.4",
     "@copilotkit/react-ui": "^1.10.4",
     "@copilotkit/runtime": "^1.10.4",
@@ -35,7 +36,8 @@
     "postcss": "^8.5.6",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "tailwindcss": "^4.1.13"
+    "tailwindcss": "^4.1.13",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.10",

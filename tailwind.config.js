@@ -4,17 +4,7 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  theme: {
-    extend: {
-      colors: {
-        'restoration-blue': '#1e40af',
-        'emergency-red': '#dc2626',
-        'success-green': '#16a34a',
-      },
-    },
-  },
-  plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
-  ],
+  // In Tailwind v4, theme configuration is done in CSS via @theme
+  // This config is kept for compatibility with plugins
+  plugins: [],
 };
